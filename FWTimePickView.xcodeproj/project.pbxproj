@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5753300206DD0F40068B959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D57532FF206DD0F40068B959 /* AppDelegate.m */; };
+		D5753303206DD0F40068B959 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5753302206DD0F40068B959 /* ViewController.m */; };
+		D5753306206DD0F40068B959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5753304206DD0F40068B959 /* Main.storyboard */; };
+		D5753308206DD0F40068B959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5753307206DD0F40068B959 /* Assets.xcassets */; };
+		D575330B206DD0F40068B959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5753309206DD0F40068B959 /* LaunchScreen.storyboard */; };
+		D575330E206DD0F40068B959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D575330D206DD0F40068B959 /* main.m */; };
+		D5753318206DD0F40068B959 /* FWTimePickViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5753317206DD0F40068B959 /* FWTimePickViewTests.m */; };
+		D5753323206DD0F40068B959 /* FWTimePickViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5753322206DD0F40068B959 /* FWTimePickViewUITests.m */; };
+		D5753332206DD19C0068B959 /* FWTimePickViews.m in Sources */ = {isa = PBXBuildFile; fileRef = D5753331206DD19B0068B959 /* FWTimePickViews.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5753314206DD0F40068B959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57532F3206DD0F40068B959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D57532FA206DD0F40068B959;
+			remoteInfo = FWTimePickView;
+		};
+		D575331F206DD0F40068B959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57532F3206DD0F40068B959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D57532FA206DD0F40068B959;
+			remoteInfo = FWTimePickView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D57532FB206DD0F40068B959 /* FWTimePickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FWTimePickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57532FE206DD0F40068B959 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D57532FF206DD0F40068B959 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5753301206DD0F40068B959 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5753302206DD0F40068B959 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5753305206DD0F40068B959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5753307206DD0F40068B959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D575330A206DD0F40068B959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D575330C206DD0F40068B959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D575330D206DD0F40068B959 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5753313206DD0F40068B959 /* FWTimePickViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FWTimePickViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5753317206DD0F40068B959 /* FWTimePickViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWTimePickViewTests.m; sourceTree = "<group>"; };
+		D5753319206DD0F40068B959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D575331E206DD0F40068B959 /* FWTimePickViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FWTimePickViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5753322206DD0F40068B959 /* FWTimePickViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWTimePickViewUITests.m; sourceTree = "<group>"; };
+		D5753324206DD0F40068B959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5753330206DD19B0068B959 /* FWTimePickViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWTimePickViews.h; sourceTree = "<group>"; };
+		D5753331206DD19B0068B959 /* FWTimePickViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWTimePickViews.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D57532F8206DD0F40068B959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5753310206DD0F40068B959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D575331B206DD0F40068B959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D57532F2206DD0F40068B959 = {
+			isa = PBXGroup;
+			children = (
+				D57532FD206DD0F40068B959 /* FWTimePickView */,
+				D5753316206DD0F40068B959 /* FWTimePickViewTests */,
+				D5753321206DD0F40068B959 /* FWTimePickViewUITests */,
+				D57532FC206DD0F40068B959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D57532FC206DD0F40068B959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57532FB206DD0F40068B959 /* FWTimePickView.app */,
+				D5753313206DD0F40068B959 /* FWTimePickViewTests.xctest */,
+				D575331E206DD0F40068B959 /* FWTimePickViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57532FD206DD0F40068B959 /* FWTimePickView */ = {
+			isa = PBXGroup;
+			children = (
+				D57532FE206DD0F40068B959 /* AppDelegate.h */,
+				D57532FF206DD0F40068B959 /* AppDelegate.m */,
+				D5753301206DD0F40068B959 /* ViewController.h */,
+				D5753302206DD0F40068B959 /* ViewController.m */,
+				D5753330206DD19B0068B959 /* FWTimePickViews.h */,
+				D5753331206DD19B0068B959 /* FWTimePickViews.m */,
+				D5753304206DD0F40068B959 /* Main.storyboard */,
+				D5753307206DD0F40068B959 /* Assets.xcassets */,
+				D5753309206DD0F40068B959 /* LaunchScreen.storyboard */,
+				D575330C206DD0F40068B959 /* Info.plist */,
+				D575330D206DD0F40068B959 /* main.m */,
+			);
+			path = FWTimePickView;
+			sourceTree = "<group>";
+		};
+		D5753316206DD0F40068B959 /* FWTimePickViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5753317206DD0F40068B959 /* FWTimePickViewTests.m */,
+				D5753319206DD0F40068B959 /* Info.plist */,
+			);
+			path = FWTimePickViewTests;
+			sourceTree = "<group>";
+		};
+		D5753321206DD0F40068B959 /* FWTimePickViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5753322206DD0F40068B959 /* FWTimePickViewUITests.m */,
+				D5753324206DD0F40068B959 /* Info.plist */,
+			);
+			path = FWTimePickViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D57532FA206DD0F40068B959 /* FWTimePickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5753327206DD0F40068B959 /* Build configuration list for PBXNativeTarget "FWTimePickView" */;
+			buildPhases = (
+				D57532F7206DD0F40068B959 /* Sources */,
+				D57532F8206DD0F40068B959 /* Frameworks */,
+				D57532F9206DD0F40068B959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FWTimePickView;
+			productName = FWTimePickView;
+			productReference = D57532FB206DD0F40068B959 /* FWTimePickView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5753312206DD0F40068B959 /* FWTimePickViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D575332A206DD0F40068B959 /* Build configuration list for PBXNativeTarget "FWTimePickViewTests" */;
+			buildPhases = (
+				D575330F206DD0F40068B959 /* Sources */,
+				D5753310206DD0F40068B959 /* Frameworks */,
+				D5753311206DD0F40068B959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5753315206DD0F40068B959 /* PBXTargetDependency */,
+			);
+			name = FWTimePickViewTests;
+			productName = FWTimePickViewTests;
+			productReference = D5753313206DD0F40068B959 /* FWTimePickViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D575331D206DD0F40068B959 /* FWTimePickViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D575332D206DD0F40068B959 /* Build configuration list for PBXNativeTarget "FWTimePickViewUITests" */;
+			buildPhases = (
+				D575331A206DD0F40068B959 /* Sources */,
+				D575331B206DD0F40068B959 /* Frameworks */,
+				D575331C206DD0F40068B959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5753320206DD0F40068B959 /* PBXTargetDependency */,
+			);
+			name = FWTimePickViewUITests;
+			productName = FWTimePickViewUITests;
+			productReference = D575331E206DD0F40068B959 /* FWTimePickViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D57532F3206DD0F40068B959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "符武";
+				TargetAttributes = {
+					D57532FA206DD0F40068B959 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D5753312206DD0F40068B959 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D57532FA206DD0F40068B959;
+					};
+					D575331D206DD0F40068B959 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D57532FA206DD0F40068B959;
+					};
+				};
+			};
+			buildConfigurationList = D57532F6206DD0F40068B959 /* Build configuration list for PBXProject "FWTimePickView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D57532F2206DD0F40068B959;
+			productRefGroup = D57532FC206DD0F40068B959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D57532FA206DD0F40068B959 /* FWTimePickView */,
+				D5753312206DD0F40068B959 /* FWTimePickViewTests */,
+				D575331D206DD0F40068B959 /* FWTimePickViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57532F9206DD0F40068B959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D575330B206DD0F40068B959 /* LaunchScreen.storyboard in Resources */,
+				D5753308206DD0F40068B959 /* Assets.xcassets in Resources */,
+				D5753306206DD0F40068B959 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5753311206DD0F40068B959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D575331C206DD0F40068B959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D57532F7206DD0F40068B959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5753303206DD0F40068B959 /* ViewController.m in Sources */,
+				D5753332206DD19C0068B959 /* FWTimePickViews.m in Sources */,
+				D575330E206DD0F40068B959 /* main.m in Sources */,
+				D5753300206DD0F40068B959 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D575330F206DD0F40068B959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5753318206DD0F40068B959 /* FWTimePickViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D575331A206DD0F40068B959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5753323206DD0F40068B959 /* FWTimePickViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5753315206DD0F40068B959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D57532FA206DD0F40068B959 /* FWTimePickView */;
+			targetProxy = D5753314206DD0F40068B959 /* PBXContainerItemProxy */;
+		};
+		D5753320206DD0F40068B959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D57532FA206DD0F40068B959 /* FWTimePickView */;
+			targetProxy = D575331F206DD0F40068B959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5753304206DD0F40068B959 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5753305206DD0F40068B959 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5753309206DD0F40068B959 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D575330A206DD0F40068B959 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5753325206DD0F40068B959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5753326206DD0F40068B959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5753328206DD0F40068B959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QR2Z3SHHDX;
+				INFOPLIST_FILE = FWTimePickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FuWu.FWTimePickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5753329206DD0F40068B959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QR2Z3SHHDX;
+				INFOPLIST_FILE = FWTimePickView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FuWu.FWTimePickView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D575332B206DD0F40068B959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QR2Z3SHHDX;
+				INFOPLIST_FILE = FWTimePickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FuWu.FWTimePickViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FWTimePickView.app/FWTimePickView";
+			};
+			name = Debug;
+		};
+		D575332C206DD0F40068B959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QR2Z3SHHDX;
+				INFOPLIST_FILE = FWTimePickViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FuWu.FWTimePickViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FWTimePickView.app/FWTimePickView";
+			};
+			name = Release;
+		};
+		D575332E206DD0F40068B959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QR2Z3SHHDX;
+				INFOPLIST_FILE = FWTimePickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FuWu.FWTimePickViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FWTimePickView;
+			};
+			name = Debug;
+		};
+		D575332F206DD0F40068B959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QR2Z3SHHDX;
+				INFOPLIST_FILE = FWTimePickViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FuWu.FWTimePickViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FWTimePickView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D57532F6206DD0F40068B959 /* Build configuration list for PBXProject "FWTimePickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5753325206DD0F40068B959 /* Debug */,
+				D5753326206DD0F40068B959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5753327206DD0F40068B959 /* Build configuration list for PBXNativeTarget "FWTimePickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5753328206DD0F40068B959 /* Debug */,
+				D5753329206DD0F40068B959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D575332A206DD0F40068B959 /* Build configuration list for PBXNativeTarget "FWTimePickViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D575332B206DD0F40068B959 /* Debug */,
+				D575332C206DD0F40068B959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D575332D206DD0F40068B959 /* Build configuration list for PBXNativeTarget "FWTimePickViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D575332E206DD0F40068B959 /* Debug */,
+				D575332F206DD0F40068B959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D57532F3206DD0F40068B959 /* Project object */;
+}
