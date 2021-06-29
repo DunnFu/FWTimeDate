@@ -14,6 +14,9 @@
 @property (nonatomic, strong) UIView *bottomView;
 @property (nonatomic, strong) UIView *topView;
 @property (nonatomic, strong) UIButton *bottonBtn;
+
+@property (nonatomic, strong) UIView *ssView;
+
 @end
 
 
