@@ -15,12 +15,9 @@
 @property (nonatomic, strong) UIView *topView;
 @property (nonatomic, strong) UIButton *bottonBtn;
 
-<<<<<<< .merge_file_G30OiP
 @property (nonatomic, strong) UIView *ssView;
 
-=======
-@property (nonatomic, strong) UIButton *topBtn;
->>>>>>> .merge_file_MwL2z5
+
 @end
 
 
