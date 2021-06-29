@@ -12,8 +12,10 @@
 @interface ViewController ()
 
 @property (nonatomic, strong) UIView *bottomView;
-
+@property (nonatomic, strong) UIView *topView;
+@property (nonatomic, strong) UIButton *bottonBtn;
 @end
+
 
 @implementation ViewController
 
