@@ -27,6 +27,7 @@
     [super viewDidLoad];
 
     self.bottomView = [[UIView alloc] init];
+    self.topView = [[UIView alloc] init];
     
     UIButton *timeBtn = [UIButton buttonWithType:UIButtonTypeSystem];
     timeBtn.frame = CGRectMake(0, 0, 100, 100);
